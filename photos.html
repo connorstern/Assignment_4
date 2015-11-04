@@ -3,14 +3,11 @@
   <head>
   <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
-    <link rel="stylesheet" href="stylesheet/foundation.css" />
+    <title>Photos</title>
+  <link rel="stylesheet" href="stylesheet/foundation.css" />
     <link rel="stylesheet" href="stylesheets/app.css" />
     <link rel="stylesheet" href="stylesheets/lightbox.css"
     <link rel="stylesheet" href="stylesheet/foundation-icons.css" />
-  <link rel="stylesheet" type="text/css" href="slick.css"/>
-  <link rel="stylesheet" type="text/css" href="slick-theme.css"/>
-  <script src="bower_components/modernizr/modernizr.js"></script>
   <style>
   .slider {
 	  width:60%;
@@ -52,48 +49,26 @@
     </ul>
   </section>
 </nav>
-<div class="top">
-  <div class="slider">
-   <img src="images/karoake.png" width="100%">
-    <img src="images/pooltable.png" width="100%">
-    <img src="images/mechanical bull.png" width="100%">
-
-  </div>
-  </div>
-  <h1>Top Sellers</h1>
-  <div class="topsellers">
-  <div class="row">
-  <div class="medium-3 columns">
-  <a class="th" href="dinner.html">
-  <img src="images/dinner/bbq wings.png">
-</a>
-  <span class="label">Honey BBQ Wings</span>
-  <p>These are our famous <strong>Honey BBQ Wings</strong> made with our special recipe for <strong>$7.99</strong>.</p>
+  <h1>Photos</h1>
+  <div id="container">
+<ul>
+	
+		<li><a class="image" href="images/photos/bar picture large.png"  data-lightbox="example-set" data-imagelightbox="a"><img src="images/photos/bar picture.png" alt="Bar" /></a></li>
+		<li><a class="image" href="images/photos/happy family large.png"  data-lightbox="example-set" data-imagelightbox="a"><img src="images/photos/happy family.png" alt="Happy Family" /></a></li>
+		<li><a class="image" href="images/photos/host large.png"  data-lightbox="example-set" data-imagelightbox="a"><img src="images/photos/host.png" alt="Host" /></a></li>
+        <li><a class="image" href="images/photos/karaoke large.png"  data-lightbox="example-set" data-imagelightbox="a"><img src="images/photos/karaoke.png" alt="Karaoke" /></a></li>
+        </ul>
+        <ul>
+		<li><a class="image" href="images/photos/mechanical bull large.png"  data-lightbox="example-set" data-imagelightbox="a"><img src="images/photos/mechanical bull.png" alt="Mechanical Bull" /></a></li>
+        <li><a class="image" href="images/photos/parking lot large.png"  data-lightbox="example-set" data-imagelightbox="a"><img src="images/photos/parking lot.png" alt="Parking Lot" /></a></li>
+		<li><a class="image" href="images/photos/pool table large.png"  data-lightbox="example-set" data-imagelightbox="a"><img src="images/photos/pool table.png" alt="Pool Table" /></a></li>
+        <li><a class="image" href="images/photos/taking order large.png"  data-lightbox="example-set" data-imagelightbox="a"><img src="images/photos/taking order.png" alt="Taking Order" /></a></li>
+	</ul>
+    
 </div>
-  <div class="medium-3 columns">
-  <a class="th" href="appetizer.html">
-  <img src="images/dinner/chicken fingers.png">
-</a>
-<span class="label">Chicken Fingers</span>
-<p>These <strong>Chicken Fingers</strong> seasoned just to your taste for only <strong>$8.99</strong>.</p>
-  </div>
-  <div class="medium-3 columns">
-  <a class="th" href="dinner.html">
-  <img src="images/dinner/sish kabob.png">
-</a>
-<span class="label">Sish Kabob</span>
-<p>You can never go wrong with our Hawaiin style <strong>Sish Kabobs</strong> for only <strong>$10.99</strong>.</p>
-  </div>
-  <div class="medium-3 columns">
-  <a class="th" href="desserts.html">
-  <img src="images/desserts/strawberry cheese cake.png">
-</a>
-<span class="label">Strawberry Cheesecake</span>
-<p>This is our famous dessert New York style <strong>Strawberry Cheesecake</strong> for <strong>$5.99</strong>.</p>
-  </div>
+  
 </div>
-</div>
-  <div class="container-footer">
+   <div class="container-footer">
   <div class="moveleft">
       <div class="row">
       <div class="contact">
@@ -120,9 +95,10 @@
 
 </div>
 </div>
-    <script src="js/app.js"></script>
-    <script src="js/vendor/jquery.js"></script>
+  
+   <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
+    <script src="js/lightbox.js"></script>
     <script src="js/foundation/foundation.topbar.js"></script>
      <script>
     $(document).foundation();
@@ -131,18 +107,6 @@
   <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script type="text/javascript" src="slick.min.js"></script>
 
-  <script type="text/javascript">
-    $(document).ready(function(){
-      $('.slider').slick();
-    });
-	$('.fade').slick({
-  dots: true,
-  infinite: true,
-  speed: 500,
-  fade: true,
-  cssEase: 'linear'
-});
-  </script>
   </body>
 </html>
 		
